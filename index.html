@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>rock-paper-sesor</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rock✊Paper✋Scissors✌️</h1>
+
+      <div class="score-board">
+        <div class="score">
+          <h2>User</h2>
+          <p id="user-score">0</p>
+        </div>
+        <div class="score">
+          <h2>Computer</h2>
+          <p id="computer-score">0</p>
+        </div>
+      </div>
+
+      <div class="choices">
+        <button class="choice" id="rock">✊ Rock</button>
+        <button class="choice" id="paper">✋ Paper</button>
+        <button class="choice" id="scissors">✌️ Scissors</button>
+      </div>
+
+      <div class="result">
+        <p id="result-text">Make your move!</p>
+      </div>
+    </div>
+
+    <div class="custom-alert" id="customAlert">
+      <div class="alert-box">
+        <p id="alertMessage">Message here</p>
+        <button onclick="closeAlert()">OK</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
