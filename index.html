@@ -8,15 +8,30 @@
   </head>
   <body>
     <div class="container">
-      <h1>Rock✊Paper✋Scissors✌️</h1>
+      <h1>Rock✊Paper✋Scissor✌️</h1>
 
+      <div class="rounds">
+        <button class="round" id="1-round" onclick="setRounds(1)">
+          1-round
+        </button>
+        <button class="round" id="3-round" onclick="setRounds(3)">
+          3-round
+        </button>
+        <button class="round" id="10-round" onclick="setRounds(10)">
+          10-round
+        </button>
+      </div>
       <div class="score-board">
         <div class="score">
-          <h2>User</h2>
+          <h2 id="user-label">User</h2>
           <p id="user-score">0</p>
         </div>
         <div class="score">
-          <h2>Computer</h2>
+          <h2 id="round-label">round</h2>
+          <p id="round-score">1</p>
+        </div>
+        <div class="score">
+          <h2 id="computer-label">Computer</h2>
           <p id="computer-score">0</p>
         </div>
       </div>
@@ -34,8 +49,18 @@
 
     <div class="custom-alert" id="customAlert">
       <div class="alert-box">
-        <p id="alertMessage">Message here</p>
+        <h1 id="alertMessage">Message here</h1>
+        <p id="pc-choice">pc choice</p>
         <button onclick="closeAlert()">OK</button>
+      </div>
+    </div>
+
+    <div class="endgame-alert" id="endgameAlert">
+      <div class="endgame-box">
+        <h1 id="endgameMessage">Message here</h1>
+        <p id="user-final-score">Final Score</p>
+        <p id="computer-final-score">Final Score</p>
+        <button onclick="closeEndAlert()">Play Again</button>
       </div>
     </div>
 
