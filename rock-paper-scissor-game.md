@@ -16,7 +16,9 @@ Welcome to the classic **Rock, Paper, Scissors** game! This is a simple, interac
 
 ## 🛠️ Built With
 
-*   [Insert your language here, e.g., Python / JavaScript / C++] - The core game logic.
+*   -html
+*   -css
+*   -java script
 
 ---
 
@@ -27,8 +29,6 @@ The rules are the classic ones you know and love:
 *   **Paper** beats Rock.
 *   **Scissors** beats Paper.
 
-### Prerequisites
-Before running the game, make sure you have [Insert prerequisite, e.g., Python 3.x / Node.js] installed on your machine.
 
 ### Running the Game
 https://abderrahman-elaichi.github.io/odin-project03/
